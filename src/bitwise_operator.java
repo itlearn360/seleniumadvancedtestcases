@@ -7,9 +7,7 @@
 	    	    {
 
 	    	        Thread t = Thread.currentThread();
-
 	    	        System.out.println(t.getPriority());
-			 System.out.println("differnce");
-
+	    	        System.out.print("differnce");
 	    	    } 
 	     }
