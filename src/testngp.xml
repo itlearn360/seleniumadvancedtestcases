@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FlightReservation">
+<test name="FlightLogin">
+<parameter name="username" value="qatraining" />
+<parameter name="password" value="qatraining" />
+
+<classes> 
+<class name="parameters.FlightLogin" />
+</classes>
+</test>
+<test name="FlightLogin1">
+
+<parameter name="username" value="jayant" />
+<parameter name="password" value="jayant" />
+<classes> 
+<class name="parameters.FlightLogin" />
+</classes>
+</test>
+</suite>

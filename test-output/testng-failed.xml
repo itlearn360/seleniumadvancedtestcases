@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FlightReservation]">
+  <test thread-count="5" name="FlightLogin1(failed)">
+    <parameter name="password" value="jayant"/>
+    <parameter name="username" value="jayant"/>
+    <classes>
+      <class name="parameters.FlightLogin">
+        <methods>
+          <include name="executeTest" invocation-numbers="0"/>
+          <include name="destroy"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- parameters.FlightLogin -->
+    </classes>
+  </test> <!-- FlightLogin1(failed) -->
+</suite> <!-- Failed suite [FlightReservation] -->

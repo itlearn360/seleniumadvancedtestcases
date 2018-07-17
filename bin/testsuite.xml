@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FlightReservation">
+<test name="FlightLogin">
+<classes> 
+<class name="tstsuite.FlightLogin" />
+</classes>
+</test>
+<test name="SearchFlight">
+<classes> 
+<class name="tstsuite.SearchFlight" />
+</classes>
+</test>
+<test name="SelectFlight">
+<classes> 
+<class name="tstsuite.SelectFlight" />
+</classes>
+</test>
+<test name="BookFlight">
+<classes> 
+<class name="tstsuite.BookFlight" />
+</classes>
+</test>
+<test name="closeDriver">
+<classes> 
+<class name="tstsuite.CloseDriver" />
+</classes>
+</test>
+</suite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+ <url>http://newtours.demoaut.com</url>
+ <!--  time out will be in seconds -->
+ <timeout>30</timeout>
+ <totalexecuteclass>4</totalexecuteclass>
+ <class1>junitcon.FlightLogin</class1>
+ <class2>junitcon.SearchFlight</class2>
+ <class3>junitcon.SelectFlight</class3>
+ <class4>junitcon.BookFlight</class4>
+</config>
